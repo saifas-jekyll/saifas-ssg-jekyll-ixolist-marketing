@@ -28,7 +28,36 @@ bundle exec jekyll serve
 
 ## Our Jekyll Application Architecture
 
-### 1. Routing
+### 1. Basics of building a structure
+
+The application structure starts with the app folder, which contains the app-build-static and jekyll-stack folders
+Example:
+```
+app/
+  app-build-static/
+  jekyll-stack/
+```
+`app-build-static` is the temporary folder where the project is being built. The path to the build location is stored in the `destination` variable in the config file.
+`jekyll-stack` is the main repository where the entire project structure is contained.
+
+The "skeleton" jekyll-stack should contain the following folder structure:
+```
+_data/
+_includes/
+assets/
+  graphics/
+    fonts/
+    images/
+  scripts/
+  styles/
+    css/
+contents/
+templates/
+  _layouts/
+```
+The path to the layout is specified in the `layouts_dir` variable. 
+
+### 2. Routing
 Routing is represented by a folder structure. The `contents_root_path` and `contents_pages_path` variables are defined in config.yml , which describe the path from the page structure of our Jekyll app. The contents of pages are folders that describe the site's routing.
 Example: 
 ```
@@ -59,7 +88,7 @@ permalink: /index.html
 Also the md file contains the `permalink` variable which describes the url path to the page.
 The layout contains the html layout of the page using the variables described in the md file. Layouts are in /_layouts.
 
-### 2. Data management
+### 3. Data management
 Data organization can have two options: using collections and using jekyll-data. We use the second option.
 The /_data folder contains subfolders describing any entity. The elements inside are .yml files, each of which describes a specific instance of an entity and contains all the variables associated with it.
 Structure example:

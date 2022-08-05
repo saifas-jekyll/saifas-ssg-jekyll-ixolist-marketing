@@ -37,6 +37,12 @@ plugins:
 contents_root_path: /contents/
 contents_pages_path: /contents/pages/
 
+source: ./
+
+destination: ../app-build-static
+
+layouts_dir: ./templates/_layouts/
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

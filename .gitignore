@@ -1,5 +1,5 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+app/jekyll-stack/.sass-cache
+app/jekyll-stack/.jekyll-cache
+app/jekyll-stack/.jekyll-metadata
+app/jekyll-stack/vendor
+app/app-build-static
