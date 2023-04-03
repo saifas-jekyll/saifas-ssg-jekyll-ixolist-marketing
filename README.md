@@ -1,4 +1,4 @@
-# SAIFAS Jekyll - Boilerplate for any App/Website
+# SAIFAS Jekyll - Boilerplate for any new App/Website
 
 #jekyll_boilerplate_app
 
