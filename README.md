@@ -12,4 +12,4 @@ Starter `Boilerplate App` contains:
 - `SAIFAS Protocol for Jekyll` Structure
 - `SAIFAS Code Architecture` Patterns
 - `SAIFAS Zero` Content
-- `Jekyll-default-minima` Theme
+- `Jekyll Minima` Default Theme
