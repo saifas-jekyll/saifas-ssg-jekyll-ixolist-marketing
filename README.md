@@ -2,7 +2,7 @@
 
 #jekyll_boilerplate_app
 
-[Documentation](https://github.com/saifasJekyll/saifas-ssg-jekyll-app-boilerplate-doc)
+[Documentation](https://github.com/saifasJekyll/saifas-ssg-jekyll-boilerplate-app-doc)
 
 This repository contains a `boilerplate code`
 
