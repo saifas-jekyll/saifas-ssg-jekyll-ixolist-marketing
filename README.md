@@ -1,5 +1,6 @@
 # `SAIFAS Jekyll`
 # Boilerplate `for any new App/Website`
+# Jekyll Theme `Minima`
 
 #jekyll_boilerplate_app
 
@@ -12,5 +13,5 @@ which could be used to create any new `Jekyll-based App` / `Jekyll-based Website
 Starter `Boilerplate App` contains: 
 - `SAIFAS Protocol for Jekyll` Structure
 - `SAIFAS Code Architecture` Patterns
-- `SAIFAS Zero` Content
-- `Jekyll Minima` Default Theme
+- Jekyll Theme `Minima` (Default Theme)
+- `SAIFAS Zero` Content (**must be removed**)
