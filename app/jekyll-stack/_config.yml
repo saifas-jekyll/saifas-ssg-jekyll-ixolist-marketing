@@ -6,7 +6,6 @@ url: ""
 github_username:  Saifas Jekyll
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 

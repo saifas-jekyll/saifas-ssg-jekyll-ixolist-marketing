@@ -1,5 +1,5 @@
 ---
-layout: home
-title: Home page
+layout: default
+title: IXOlist
 permalink: /index.html
 ---
