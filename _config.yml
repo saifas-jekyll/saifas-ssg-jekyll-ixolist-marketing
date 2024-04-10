@@ -14,7 +14,7 @@ contents_pages_path: /contents/pages/
 
 source: ./
 
-destination: ../app-build-static
+destination: ./_site/
 
 layouts_dir: ./templates/_layouts/
 
