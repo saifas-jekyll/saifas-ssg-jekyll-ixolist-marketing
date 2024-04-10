@@ -19,10 +19,10 @@
           <div class="container__left-side">
             <div class="left-side__block">
               <div class="container__title animate__animated animate__fadeInDown">
-                IXOlist
+                {{ page.main-title }}
               </div>
               <div class="container__subtitle animate__animated animate__fadeInDown">
-                The open door to<br> the crypto world is with us!
+                {{ page.main-subtitle}}
               </div>
               <button class="container__btn animate__animated animate__fadeInUp">
                 Try
@@ -41,7 +41,7 @@
           <div class="container__left-side">
             <div class="left-side__block">
               <div class="block-text animate__animated animate__fadeInLeft">
-                We ensure that clients participate in promising cryptocurrency projects, and also create a bridge between cryptocurrencies and business development for greater efficiency and effectiveness.
+                {{ page.second-block-text}}
               </div>
             </div>
           </div>
@@ -56,32 +56,32 @@
           <div class="container__left-side">
             <div class="services__buttons animate__animated animate__fadeInLeft">
               <div class="services__btn" id="Offering">
-                Offering
+                {{ page.offering }}
               </div>
               <div></div>
               <div class="services__btn" id="Emission">
-                Emission
+                {{ page.emission }}
               </div>
               <div>
               </div>
               <div class="services__btn" id="Me">
-                Community
+                {{ page.community }}
               </div>
               <div>
               </div>
               <div class="services__btn" id="Bank">
-                Bank
+                {{ page.bank }}
               </div>
               <div></div>
               <div class="services__btn" id="Organizations">
-                Enterprise
+                {{ page.enterprise}}
               </div>
             </div>
           </div>
           <div class="container__right-side">
             <div class="right-side__description block-text--white animate__animated animate__fadeInRight">
               <div class="description" id="OfferingDescription">
-                Creating and managing campaigns
+                {{ page.offering-description }}
                 <a style="text-decoration: none;" href="https://ixolist-userapp-offering-dev.netlify.app/" target="_blank">
                   <button class="container__btn" >
                     See more
@@ -89,7 +89,7 @@
                 </a>
               </div>
               <div class="description" id="BankDescription">
-                Management of financial operations
+                {{ page.bank-description }}
                 <a style="text-decoration: none;" href="https://ixolist-userapp-bank-dev.netlify.app/" target="_blank">
                   <button class="container__btn" >
                     See more
@@ -97,7 +97,7 @@
                 </a>
               </div>
               <div class="description" id="EmissionDescription">
-                Register of jurisdictions and their management
+                {{ page.emission-description }}
                 <a style="text-decoration: none;" href="https://ixolist-userapp-emission-dev.netlify.app/" target="_blank">
                   <button class="container__btn" >
                     See more
@@ -105,7 +105,7 @@
                 </a>
               </div>
               <div class="description" id="EnterpriseDescription">
-                Information and management of organizations<br> or companies related to your business or projects
+                {{ page.enterprise-description }}
                 <a style="text-decoration: none;" href="https://ixolist-userapp-org-dev.netlify.app/" target="_blank">
                   <button class="container__btn" >
                     See more
@@ -113,7 +113,7 @@
                 </a>
               </div>
               <div class="description" id="CommunityDescription">
-                Personal profiles and user settings<br> for account management
+                {{ page.community-description }}
                 <a style="text-decoration: none;" href="https://ixolist-userapp-me-dev.netlify.app/" target="_blank">
                   <button class="container__btn" >
                     See more
