@@ -5,7 +5,7 @@
     <title>
       {{ page.title }}
     </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../assets/styles/css/style.css" rel="stylesheet">
     <!-- Include fonts -->
     {% include fonts.html %}
@@ -65,7 +65,7 @@
               <div>
               </div>
               <div class="services__btn" id="Me">
-                Me
+                Community
               </div>
               <div>
               </div>
@@ -74,41 +74,51 @@
               </div>
               <div></div>
               <div class="services__btn" id="Organizations">
-                Organizations
+                Enterprise
               </div>
             </div>
           </div>
           <div class="container__right-side">
             <div class="right-side__description block-text--white animate__animated animate__fadeInRight">
               <div class="description" id="OfferingDescription">
-                Creating and managing campaigns<br> and conducting ICOs
-                <button class="container__btn">
-                  See more
-                </button>
+                Creating and managing campaigns
+                <a style="text-decoration: none;" href="https://ixolist-userapp-offering-dev.netlify.app/" target="_blank">
+                  <button class="container__btn" >
+                    See more
+                  </button>
+                </a>
               </div>
               <div class="description" id="BankDescription">
-                Management of financial operations,<br> balances and transactions
-                <button class="container__btn">
-                  See more
-                </button>
+                Management of financial operations
+                <a style="text-decoration: none;" href="https://ixolist-userapp-bank-dev.netlify.app/" target="_blank">
+                  <button class="container__btn" >
+                    See more
+                  </button>
+                </a>
               </div>
               <div class="description" id="EmissionDescription">
                 Register of jurisdictions and their management
-                <button class="container__btn">
-                  See more
-                </button>
+                <a style="text-decoration: none;" href="https://ixolist-userapp-emission-dev.netlify.app/" target="_blank">
+                  <button class="container__btn" >
+                    See more
+                  </button>
+                </a>
               </div>
-              <div class="description" id="OrganizationsDescription">
+              <div class="description" id="EnterpriseDescription">
                 Information and management of organizations<br> or companies related to your business or projects
-                <button class="container__btn">
-                  See more
-                </button>
+                <a style="text-decoration: none;" href="https://ixolist-userapp-org-dev.netlify.app/" target="_blank">
+                  <button class="container__btn" >
+                    See more
+                  </button>
+                </a>
               </div>
-              <div class="description" id="MeDescription">
+              <div class="description" id="CommunityDescription">
                 Personal profiles and user settings<br> for account management
-                <button class="container__btn">
-                  See more
-                </button>
+                <a style="text-decoration: none;" href="https://ixolist-userapp-me-dev.netlify.app/" target="_blank">
+                  <button class="container__btn" >
+                    See more
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -117,6 +127,36 @@
     </div>
     <div class="body__section body__section--fourth">
       <div class="section__container">
+        <div id="contact" class="body__section body__section--contact">
+          <div class="container__contact">
+            <div class="contact-section__first-column">
+              <div class="first-column__title">Get Started</div>
+            </div>
+            <div class="contact-section__second-column">
+              <div class="second-column__title">{{ page.contact-section-title }}</div>
+              <form
+                action="{{ site.usebasinUrl }}"
+                method="POST"
+                enctype="multipart/form-data"
+                id="form"
+              >
+                <div class="form__input">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" />
+                </div>
+                <div class="form__input">
+                  <label for="email">Your Email</label>
+                  <input type="email" name="email" required />
+                </div>
+                <div class="form__input">
+                  <label for="message">Your Message</label>
+                  <textarea name="message"></textarea>
+                </div>
+                <button type="submit">Contact Us</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

@@ -95,6 +95,7 @@ html, body {
 .container__subtitle {
   font-size: 32px;
   font-weight: 400;
+  line-height: 46px;
 }
 
 .container__btn {
@@ -165,4 +166,206 @@ html, body {
   color: #fff !important;
   font-size: 22px;
   line-height: 46px;
+}
+
+.contact-section__first-column > .first-column__title {
+  color: #1976D2;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.contact-section__second-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 220px;
+}
+
+.contact-section__second-column > .second-column__title {
+  color: #1976D2;;
+  font-size: 24px;
+  line-height: 46px;
+  letter-spacing: 0.01em;
+  margin-bottom: 48px;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+  max-width: 632px;
+  margin-bottom: 48px;
+}
+
+.form__input > label {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #1976D2;;
+  margin-bottom: 16px;
+}
+
+.form__input > input {
+  height: 56px;
+  border-radius: 28px;
+  border: 1px solid #1976D2;;
+  outline: none;
+  background: transparent;
+  color: #1976D2;;
+  font-size: 16px;
+  padding: 0 24px;
+}
+
+.form__input > textarea {
+  padding: 24px;
+  min-height: 216px;
+  border-radius: 28px;
+  border: 1px solid #1976D2;
+  outline: none;
+  background: transparent;
+  color: #1976D2;
+  font-size: 16px;
+}
+
+form > button {
+  max-width: 280px;
+  background: #1976D2;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  border-radius: 16px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: white !important;
+}
+
+.container__contact {
+  display: flex;
+  padding: 40px;
+  width: 100%;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .section__container {
+    margin: 0 20px; /* Уменьшаем отступы для маленьких экранов */
+  }
+
+  .container__title {
+    font-size: 54px; /* Уменьшаем размер заголовка на мобильных устройствах */
+  }
+
+  .container__subtitle {
+    font-size: 20px; /* Уменьшаемразмер подзаголовка на мобильных устройствах */
+  }
+  
+  .container__btn {
+    font-size: 18px; /* Уменьшаем размер кнопок на мобильных устройствах */
+    margin-top: 20px; /* Уменьшаем отступ кнопок от заголовка на мобильных устройствах */
+  }
+  
+  .phone-img {
+    max-height: 320px; /* Уменьшаем высоту изображения телефона на мобильных устройствах */
+    margin-top: 60px;
+    max-width: 160px;
+    width: 100%;
+    height: auto;
+  }
+
+  .body__section--second > .section__container > .container > .container__right-side {
+    display: none;
+  }
+  
+  .body__section--second > .section__container > .container > .container__left-side > .left-side__block > .block-text {
+    text-align: center !important;
+  }
+
+  .body__section--second > .section__container {
+    margin: 0;
+  }
+
+  .body__section--third > .section__container {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .body__section--third > .section__container > .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .body__section--third > .section__container > .container > .container__left-side {
+    padding: 40px;
+  }
+
+  .body__section--third > .section__container > .container > .container__right-side {
+    display: flex;
+    justify-content: center;
+    padding: 0 40px 40px 40px;
+    margin-top: -20px;
+  }
+
+  .body__section--third > .section__container > .container > .container__right-side > .right-side__description > div {
+    width: 100%;
+  }
+
+  .body__section--third > .section__container > .container > .container__right-side > .right-side__description > div > a > .container__btn{
+    min-width: 100%;
+  }
+
+  .body__section--third {
+    height: 600px;
+  }
+
+  .services__buttons {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .services__btn {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .block-text, .block-text--white {
+    font-size: 18px; /* Уменьшаем размер текста на мобильных устройствах */
+    line-height: 36px; /* Уменьшаем межстрочный интервал на мобильных устройствах */
+  }
+  
+  .contact-section__second-column {
+    margin-left: 0; /* Убираем отступ у второго столбца контактной формы на мобильных устройствах */
+  }
+  
+  .form__input {
+    max-width: none; /* Убираем максимальную ширину для инпутов формы на мобильных устройствах */
+    margin-bottom: 24px; /* Уменьшаем отступы между инпутами на мобильных устройствах */
+  }
+  
+  .form__input > input,
+  .form__input > textarea {
+    font-size: 16px; /* Уменьшаем размер шрифта в инпутах и текстовом поле на мобильных устройствах */
+  }
+  
+  form > button {
+    font-size: 18px; /* Уменьшаем размер кнопки в форме на мобильных устройствах */
+  }
+
+  .container__contact {
+    flex-direction: column;
+  }
+  
+  .first-column__title {
+    margin-bottom: 20px;
+  }
+
+  .second-column__title {
+    font-size: 20px !important;
+  }
 }
