@@ -163,6 +163,17 @@ html, body {
   max-width: 500px;
 }
 
+.description {
+  flex-direction: column;
+  height: 100%;
+  padding: 40px 0;
+}
+
+.description__text {
+  display: flex;
+  height: 100%;
+}
+
 .block-text--white {
   color: #fff !important;
   font-size: 22px;
@@ -321,13 +332,18 @@ form > button {
     min-width: 100%;
   }
 
+  .body__section--third > .section__container > .container > .container__right-side > .right-side__description {
+    min-width: 100%;
+  }
+
   .body__section--third {
-    height: 600px;
+    height: auto;
   }
 
   .services__buttons {
     flex-direction: column;
     display: flex;
+    margin-top: 10px;
   }
 
   .services__btn {
@@ -356,6 +372,7 @@ form > button {
   
   form > button {
     font-size: 18px; /* Уменьшаем размер кнопки в форме на мобильных устройствах */
+    min-width: 100%;
   }
 
   .container__contact {
@@ -368,6 +385,10 @@ form > button {
 
   .second-column__title {
     font-size: 20px !important;
+  }
+
+  .description {
+    padding: 0;
   }
 }
 
@@ -387,7 +408,7 @@ form > button {
   top: 10px;
   right: 10px;
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 400;
   color: #fff;
   z-index: 1;
 }

@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
       
       const selectedDescription = document.getElementById(descriptionId);
       if (selectedDescription) {
-          selectedDescription.style.display = 'block';
+          selectedDescription.style.display = 'flex';
       }
   }
 });
