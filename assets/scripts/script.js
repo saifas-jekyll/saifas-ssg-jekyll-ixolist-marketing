@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
       });
   });
   
-  const defaultSelectedButton = document.getElementById("Me");
+  const defaultSelectedButton = document.getElementById("Bank");
   defaultSelectedButton.classList.add('selected');
   showDescription(defaultSelectedButton);
   

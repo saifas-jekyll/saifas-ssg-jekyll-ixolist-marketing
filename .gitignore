@@ -4,3 +4,4 @@
 vendor
 app-build-static
 _site
+Gemfile.lock

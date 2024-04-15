@@ -13,14 +13,14 @@ second-block-text: We ensure that clients participate in promising cryptocurrenc
 # services buttons
 offering: Offering
 community: Community
-emission: Emission
+minting: Minting
 bank: Bank
 enterprise: Enterprise
 
 # services descriptions
 offering-description: Creating and managing campaigns
 bank-description: Management of financial operations
-emission-description: Register of jurisdictions and their management
+minting-description: Register of jurisdictions and their management
 enterprise-description: Information and management of organizations<br> or companies related to your business or projects
 community-description: Personal profiles and user settings<br> for account management
 
