@@ -13,6 +13,7 @@
     {% include animations.html %}
   </head>
   <body>
+    {% include multilang-buttons.html %}
     <div class="body__section body__section--first">
       <div class="section__container">
         <div class="container">
@@ -26,13 +27,13 @@
               </div>
               <a style="text-decoration: none; width: 100%;" href="https://ixolist-userapp-me-dev.netlify.app/" target="_blank">
                 <button class="container__btn animate__animated animate__fadeInUp">
-                  Try
+                  {{ page.try}}
                 </button>
               </a>
             </div>
           </div>
           <div class="container__right-side">
-            <img class="phone-img animate__animated animate__fadeInRight" src="assets/graphics/images/phone.png"></img>
+            <img class="phone-img animate__animated animate__fadeInRight" src="../assets/graphics/images/phone.png"></img>
           </div>
         </div>
       </div>
@@ -80,7 +81,7 @@
                 {{ page.offering-description }}
                 <a style="text-decoration: none;" href="https://ixolist-userapp-offering-dev.netlify.app/" target="_blank">
                   <button class="container__btn" >
-                    See more
+                    {{ page.see-more }}
                   </button>
                 </a>
               </div>
@@ -88,7 +89,7 @@
                 {{ page.bank-description }}
                 <a style="text-decoration: none;" href="https://ixolist-userapp-bank-dev.netlify.app/" target="_blank">
                   <button class="container__btn" >
-                    See more
+                    {{ page.see-more }}
                   </button>
                 </a>
               </div>
@@ -96,7 +97,7 @@
                 {{ page.minting-description }}
                 <a style="text-decoration: none;" href="https://ixolist-userapp-minting-dev.netlify.app/" target="_blank">
                   <button class="container__btn" >
-                    See more
+                    {{ page.see-more }}
                   </button>
                 </a>
               </div>
@@ -104,7 +105,7 @@
                 {{ page.enterprise-description }}
                 <a style="text-decoration: none;" href="https://ixolist-userapp-org-dev.netlify.app/" target="_blank">
                   <button class="container__btn" >
-                    See more
+                    {{ page.see-more }}
                   </button>
                 </a>
               </div>
@@ -112,7 +113,7 @@
                 {{ page.community-description }}
                 <a style="text-decoration: none;" href="https://ixolist-userapp-me-dev.netlify.app/" target="_blank">
                   <button class="container__btn" >
-                    See more
+                    {{ page.see-more }}
                   </button>
                 </a>
               </div>
@@ -126,7 +127,7 @@
         <div id="contact" class="body__section body__section--contact">
           <div class="container__contact">
             <div class="contact-section__first-column">
-              <div class="first-column__title">Get Started</div>
+              <div class="first-column__title">{{ page.get-started }}</div>
             </div>
             <div class="contact-section__second-column">
               <div class="second-column__title">{{ page.contact-section-title }}</div>
@@ -137,18 +138,18 @@
                 id="form"
               >
                 <div class="form__input">
-                  <label for="name">Your Name</label>
+                  <label for="name">{{ page.your-name }}</label>
                   <input type="text" name="name" />
                 </div>
                 <div class="form__input">
-                  <label for="email">Your Email</label>
+                  <label for="email">{{ page.your-email }}</label>
                   <input type="email" name="email" required />
                 </div>
                 <div class="form__input">
-                  <label for="message">Your Message</label>
+                  <label for="message">{{ page.your-message }}</label>
                   <textarea name="message"></textarea>
                 </div>
-                <button type="submit">Contact Us</button>
+                <button type="submit">{{ page.contact-us }}</button>
               </form>
             </div>
           </div>

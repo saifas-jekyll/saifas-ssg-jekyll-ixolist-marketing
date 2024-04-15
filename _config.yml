@@ -1,13 +1,20 @@
 title: IXOLIST Marketing
 email:
 description: IXOLIST Marketing website
-baseurl: ""
+baseurl: "/"
 url: ""
 github_username:  Saifas Jekyll
 
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-polyglot
+
+# Localization
+languages: ["en", "ru"]
+default_lang: "en"
+exclude_from_localization: ["_includes", "assets"]
+parallel_localization: true
 
 contents_root_path: /contents/
 contents_pages_path: /contents/pages/
